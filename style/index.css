@@ -1,0 +1,25 @@
+*{
+    font-family: 'Nanum Pen Script';
+}
+
+body {
+    background-image: url("image/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     }
+
+.element{
+    color:f2f3ae;
+}
+
+.topic{
+    font-size:96px;
+}
+
+.slogan{
+    font-size:25px;
+}
+
+.explore{
+    font-size:27px;
+}

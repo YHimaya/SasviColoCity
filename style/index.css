@@ -3,13 +3,17 @@
 }
 
 body {
-    background-image: url("image/bg.jpg");
+    background-image: url("image\bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-     }
+}
 
 .element{
-    color:f2f3ae;
+    color:#f2f3ae;
+}
+
+.main{
+    text-align: center;
 }
 
 .topic{
@@ -22,4 +26,5 @@ body {
 
 .explore{
     font-size:27px;
+    background-color: #003049;
 }

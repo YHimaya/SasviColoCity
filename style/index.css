@@ -1,30 +1,28 @@
 *{
-    font-family: 'Nanum Pen Script';
+    font-family: 'Single Day', cursive;
 }
 
 body {
-    background-image: url("image\bg.jpg");
+    background-image: url("images/blue.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.element{
-    color:#f2f3ae;
-}
-
 .main{
-    text-align: center;
+    height: 300px;
+    margin-top: 215px;
 }
 
 .topic{
-    font-size:96px;
+    font-size:150px;
+    height: 200px;
 }
 
 .slogan{
-    font-size:25px;
+    font-size:50px;
+    height: 100px;
 }
 
-.explore{
-    font-size:27px;
-    background-color: #003049;
+.main_bar{
+    text-align: center;
 }

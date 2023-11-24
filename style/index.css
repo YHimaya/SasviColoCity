@@ -54,3 +54,7 @@ body {
     background-color: #ddd;
     color: black;
   }
+
+  .nav_right{
+    float: right;
+  }

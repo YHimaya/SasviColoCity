@@ -4,9 +4,7 @@
 
 /*pages-start*/
 .main{
-    height: 600px;
-    border: 1px;
-    /*border:1px solid green;*/
+    height: 700px;
 }
 
 .main-home{
@@ -15,7 +13,7 @@
 }
 
 .main-gallery{
-    background-color: aquamarine;
+    background-color: rgba(10, 17, 40, 0.5); 
 }
 
 .main-project{
@@ -59,16 +57,42 @@
 /*home page close*/
 
 
+/*gallery page open*/
+.top-bar{
+    height: 190px;
+}
 
+.bar1{
+}
+
+.gallery{
+    font-size: 125px;
+    width: 43%;
+    text-align: center;
+    color: rgba(10, 17, 40, 1);
+}
+
+.quote{
+    font-size: 30px;
+    width: 43%;
+    text-align: center;
+    justify-content: center;
+    color: rgba(254, 252, 251, 1);
+}
+
+.gallery hr{
+    height: 5px;
+}
+/*gallery page end*/
 
 /*navbar-start */
 
 #navbar {
-    background-color: rgba(10, 17, 40, 1);; 
+    background-color: rgba(10, 17, 40, 1); 
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; 
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    transition: top 0.8s; /* Transition effect when sliding down (and up) */
   }
   
   
@@ -77,8 +101,9 @@
     display: block;
     color: rgba(254, 252, 251, 1);
     text-align: center;
-    padding: 15px;
+    padding: 10px 20px;
     text-decoration: none;
+    font-size: 25px;
   }
   
   #navbar a:hover {
@@ -92,13 +117,25 @@
 
   .logo-name{
     color: rgba(254, 252, 251, 1);
+    font-size: 45px;
   }
   /*navbar-close*/
 
+/*footer open*/
+.footer{
+    background-color: rgba(10, 17, 40, 1); 
+    color: rgba(254, 252, 251, 1);
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+/*footer end*/
+
+
   /*
-  10, 17, 40 oxford blue
-  1, 31, 84 penn blue
-  3, 64, 120 indigo dye
-  18, 130, 162 cerulean
-  254, 252, 251 white
+  10, 17, 40, 1 oxford blue
+  1, 31, 84, 1 penn blue
+  3, 64, 120, 1 indigo dye
+  18, 130, 162, 1 cerulean
+  254, 252, 251, 1 white
   */

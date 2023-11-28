@@ -96,14 +96,29 @@
 
 .project-item{
     float: left;
-    height: 300px;
+    height: 350px;
     width: 20%;
-    margin-top: 50px;
+    margin-top: 25px;
     border: 1px solid green;
 }
 
-.project-com{
-    
+.project-image{
+    border: 1px solid green;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px; 
+    border-radius: 25px;
+}
+
+.project-name{
+    border: 1px solid green;
+    height: 9%;
+    width: 80%;
+    margin: auto;
+    margin-top: 8px;
+    font-size: 25px; 
+    text-align: center;
 }
 /*project page end*/
 

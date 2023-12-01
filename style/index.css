@@ -144,11 +144,19 @@ a:hover .gallery-box{
     margin: auto;
     margin-top: 1.002vw; 
     border-radius: 1.669vw;
-    border: 5px solid rgba(10, 17, 40, 1);
+    border: 0.534vw solid rgba(10, 17, 40, 1);
 }
 
 .project-image:hover{
     background-color: rgba(10, 17, 40, 1);
+}
+
+.project-image:hover .project-img-bottom{
+    display: none;
+}
+
+.project-image:hover .project-img-top{
+    display: block;
 }
 
 .project-name{
@@ -160,12 +168,22 @@ a:hover .gallery-box{
     text-align: center;
 }
 
-.project-image-img{
-    width: 30%;
-    height: 30%;
+.project-img-bottom{
+    width: 55%;
+    height: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2.5vw;
+}
+
+.project-img-top{
+    width: 55%;
+    height: 55%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vw;
 }
 /*project page end*/
 
@@ -242,7 +260,7 @@ a:hover .gallery-box{
 
 
   /*
-  10, 17, 40, 1 oxford blue
+  10, 17, 40, 1 oxford blue #0a1128
   1, 31, 84, 1 penn blue
   3, 64, 120, 1 indigo dye
   18, 130, 162, 1 cerulean

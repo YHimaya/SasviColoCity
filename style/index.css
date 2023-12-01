@@ -144,7 +144,7 @@ a:hover .gallery-box{
     margin: auto;
     margin-top: 1.002vw; 
     border-radius: 1.669vw;
-    background-color: rgba(50, 74, 95, 1);
+    border: 5px solid rgba(10, 17, 40, 1);
 }
 
 .project-image:hover{

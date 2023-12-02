@@ -1,0 +1,13 @@
+*{
+    font-family: 'Single Day', cursive;
+}
+
+/*footer open*/
+.footer{
+    background-color: rgba(10, 17, 40, 1); 
+    color: rgba(254, 252, 251, 1);
+    margin-bottom: 0.668vw;
+    text-align: center;
+    font-size: 1.335vw;
+}
+/*footer end*/

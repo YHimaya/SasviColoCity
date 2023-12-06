@@ -41,8 +41,32 @@
     display: block;
     color: rgba(254, 252, 251, 1);
     text-align: center;
-    line-height-step: 50px;
  }
+
+ .art-details{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 30%;
+    font-family: 'Poppin', sans-serif;
+ }
+
+ .art-name{
+    font-size: 3vw;
+ }
+
+ .art-possition{
+    font-size: 1.5vw;
+ }
+
+ .art-size{
+    font-size: 2vw;
+ }
+
+ .art-pencil{
+    font-size: 1.5vw;
+ }
+
 /*art end*/
 
 /*footer open*/

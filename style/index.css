@@ -4,23 +4,18 @@
 
 .space{
     width: 100%;
-    height: 8.347vw;
+    height: 7.3vw;
 }
 
 /*pages-start*/
 .main{
-    height: 43.403vw;
+    height: 40.403vw;
 }
 
 .main-home{
     padding-top: 14.356vw;
     background-color:  rgba(254, 252, 251, 1);
-}
-
-.main-gallery{
-    background-color:rgba(254, 252, 251, 1); 
-    border: 1px solid green;
-    height: 41.066vw;
+    height: 42.403vw;
 }
 
 .main-project{
@@ -56,61 +51,6 @@
 
 
 /*home page close*/
-
-
-/*gallery page open*/
-
-.gallery-bar{
-    width: 100%;
-    height: 50%;
-    border: 1px solid green;
-    float: left;
-}
-
-.gallery-bar1{
-    width: 50%;
-    height: 100%;
-    border: 1px solid green;
-    float: left;
-}
-
-.gallery-1{
-    border: 1px solid green;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-.gallery-topic{
-    border: 1px solid green;
-    width: 90%;
-}
-
-.gallery-name{
-    font-size: 7vw;
-    text-align: center;
-    color: rgba(10, 17, 40, 1);
-    border: 1px solid green;
-}
-
-.gallery-quote{
-    font-size: 1.5vw;
-    text-align: center;
-    justify-content: center;
-    color: rgba(254, 252, 251, 1);
-    border: 1px solid green;
-}
-
-.gallery-box{
-    width: 95%;
-    height: 98%;
-    border: 1px solid green;
-    margin: auto;
-}
-
-a:hover .gallery-box{
-    background-color: brown;
-}
-/*gallery page end*/
 
 /*project page open*/
 .project-topic{
@@ -228,7 +168,7 @@ a:hover .gallery-box{
     display: block;
     color: rgba(254, 252, 251, 1);
     text-align: center;
-    padding: 0.668vw 1.4vw;
+    padding: 0.768vw 1.4vw;
     text-decoration: none;
     font-size: 1.5vw;
   }
@@ -264,5 +204,6 @@ a:hover .gallery-box{
   1, 31, 84, 1 penn blue
   3, 64, 120, 1 indigo dye
   18, 130, 162, 1 cerulean
-  254, 252, 251, 1 white
+  254, 252, 251, 1 white   #fefbfc
+  #E11F74
   */

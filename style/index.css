@@ -54,20 +54,24 @@
 
 /*project page open*/
 .project-topic{
-    font-size: 7vw;
+    font-size: 6vw;
     text-align: center;
-    color: rgba(10, 17, 40, 1);
+    color: #8093f1;
 }
 
 .project-quote{
     font-size: 1.5vw;
     text-align: center;
     justify-content: center;
-    color: rgba(	50, 48, 49, 1);
+    color: #21295c;
 }
 
 .all-project-bar{  
     margin-left: 8vw;
+}
+
+hr{
+    background-color: #8093f1;
 }
 
 .project-item{
@@ -106,6 +110,7 @@
     margin-top: 0.534vw;
     font-size: 1.2vw; 
     text-align: center;
+    color: #21295c;
 }
 
 .project-img-bottom{
@@ -166,15 +171,15 @@
   #navbar a {
     float: left;
     display: block;
-    color: rgba(254, 252, 251, 1);
+    color: #e3d7ff;
     text-align: center;
     padding: 0.768vw 1.4vw;
     text-decoration: none;
     font-size: 1.5vw;
   }
   
-  #navbar a:hover {
-    background-color: rgba(254, 252, 251, 1);
+  #navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #afa2ff;
     color: rgba(10, 17, 40, 1);
   }
 
@@ -182,8 +187,51 @@
     float: right;
   }
 
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    
+    border: none;
+    outline: none;
+    color:#e3d7ff;
+    background-color: rgba(10, 17, 40, 1); 
+    margin: 0;
+    padding: 0.768vw 1.4vw;
+    font-size: 1.5vw;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: block;
+  }
+
   .logo-name{
-    color: rgba(254, 252, 251, 1);
+    color: #e3d7ff;
     font-size: 2vw;
   }
   /*navbar-close*/

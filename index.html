@@ -16,13 +16,11 @@
     <!--navigation bar open-->
     <div id="navbar">
         <div class="logo-name">SasviColoCity</div>
-        <div class="nav_right">
+        <div class="nav_right" id="myTopnav">
             <a href="#home">Home</a>
             <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">Gallery
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content" id="myDropdown">
+                <button class="dropbtn">Gallery</button>
+                <div class="dropdown-content">
                   <a href="pages/p_art.html">Pencil Arts</a>
                   <a href="pages/c_art.html">Colour Pencil Arts</a>
                   <a href="pages/d_art.html">Digital Arts</a>
@@ -32,12 +30,13 @@
                   <a href="pages/sketchbook.html">Sketch book</a>
                   <a href="pages/d_art.html">All</a>
                 </div>
-                </div> 
+            </div> 
             <a href="pages/commission.html">Commission</a>
             <a href="pages/blog.html">Blog</a>
             <a href="#project">Project</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
     </div>
     <!--navigation bar end-->
@@ -135,6 +134,17 @@
     <!--footer open-->
     <div class="footer">2023. All right reserved to Sasvi Colo City. created by Yasasvi Himaya.</div>
     <!--footer end-->
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav_right") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav_right";
+          }
+        }
+        </script>
     
 </body>
 </html>

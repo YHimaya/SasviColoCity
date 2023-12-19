@@ -1,76 +1,37 @@
+table, tr, th, td, .row, .col{
+  border : 1px solid green;
+}
 
-        body {margin:0;font-family:Arial}
+.commission-box{
+  height: 35vw;
+  width: 80%;
+}
 
-        .logo-name{
-          color: #e3d7ff;
-          font-size: 2vw;
-        }
-      
-      #navbar {
-          background-color: rgba(10, 17, 40, 1); 
-          position: fixed; /* Make it stick/fixed */
-          top: -8.681vw; /* Hide the navbar 50 px outside of the top view */
-          width: 100%; 
-          transition: top 0.8s; /* Transition effect when sliding down (and up) */
-        }
-      
-        .nav_right {
-          overflow: hidden;
-          background-color: rgba(10, 17, 40, 1); 
-          float: right;
-        }
-      
-        .nav_right a {
-          float: left;
-          display: block;
-          color: #e3d7ff;
-          background-color: rgba(10, 17, 40, 1); 
-          text-align: center;
-          padding: 0.768vw 1.4vw;
-          text-decoration: none;
-          font-size: 1.5vw;
-        }
-      
-        .dropbtn {
-          font-size: 1.5vw;
-          color: #e3d7ff;
-          background-color: rgba(10, 17, 40, 1); 
-          padding: 0.768vw 1.4vw;
-          font-family: inherit;
-          border: none;
-        }
-      
-        .dropdown {
-          float: left;
-          overflow: hidden;
-          position: relative;
-        display: inline-block;
-        }
-        
-        .nav_right a:hover, .dropdown:hover .dropbtn {
-          background-color: #afa2ff;
-          color: rgba(10, 17, 40, 1);
-        }
-      
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        .dropdown-content a {
-          color: black;
-          padding: 0.768vw 1.4vw;
-          text-decoration: none;
-          display: block;
-        }
-        
-        .dropdown-content a:hover {background-color: #ddd;}
-        
-        .dropdown:hover .dropdown-content {
-          display: block;
-          }
+.head-row{
+  height: 25%;
+}
+
+.row-details{
+  height: 20%;
+}
+
+.col{
+  height: 100%;
+  float: left;
+}
+
+.column{
+  width: 20%;
+}
+
+.col2{
+  width: 75%;
+}
+
+.column-price{
+  width: 25%;
+  float: left;
+  border : 1px solid green;
+  height: 100%;
+}
         

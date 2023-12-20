@@ -1,37 +1,32 @@
-table, tr, th, td, .row, .col{
-  border : 1px solid green;
+.commission-area{
+  border: 1px solid orange;
+  height: 35vw;
+}
+
+
+.box{
+  border: 1px solid orange;
+  height: 100%;
+  float: left;
+}
+
+.box-beside{
+  width: 15%;
 }
 
 .commission-box{
-  height: 35vw;
-  width: 80%;
+  width: 70%;
 }
 
-.head-row{
-  height: 25%;
-}
-
-.row-details{
-  height: 20%;
-}
-
-.col{
-  height: 100%;
+.size{
+  width: 30%;
+  border: 1px solid orange;
   float: left;
 }
 
-.column{
-  width: 20%;
-}
-
-.col2{
-  width: 75%;
-}
-
-.column-price{
-  width: 25%;
-  float: left;
-  border : 1px solid green;
+.price{
+  width: 69.7%;
+  border: 1px solid orange;
   height: 100%;
+  float: left;
 }
-        
